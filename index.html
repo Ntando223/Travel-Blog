@@ -2,71 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Travel Blog</title>
-    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search Bar</title>
+    <title>Travel Blog</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome- Icons -->
+    <script src="https://kit.fontawesome.com/8631d2eceb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<form action="/search" method="get">
-  <input type="text" name="q" placeholder="Search...">
-  <button type="submit">Search</button>
-</form>
+<!-- Header -->
+    <div class="header">
+        <h1 class="header-title">N & S Travels</h1>
+
+        <nav class="nav-bar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <form class="search-form">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit">Go</button>
+        </form>
+
+        <p> Explore the world with us as we offer affordable traveling packages across the continent.<br>
+        Get <span>30% Off</span> on your first travel package when you travel with us.
+        </p>
+    </div>
+
+    <!-- Category -->
+    <div class="category">
+        <h2>Choose  A Category</h2>
+        <div class="category-container">
+            <div class="category-block">
+                <a href="#"><h3>Beach Trips</h3></a>
+            </div>
+            <div class="category-block">
+                <a href="#"><h3>Solo Trips</h3></a>
+            </div>
+            <div class="category-block">
+                <a href="#"><h3>Romantic Trips</h3></a>
+            </div>
+            <div class="category-block">
+                <a href="#"><h3>Family Trips</h3></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog posts -->
+    <div class="blog-post">
+        <h2>Latest Blog Post</h2>
+        <div class="post-container">
+        <div class="post-block">
+            <h3>Zanzibar</h3>
+            <img src="images/zanzibar.jpg" alt="Zanzibar Image">
+            <ul>
+                <li>Dive into crystal clear waters teeming with vibrant marine life,where colourful coral reefs and exotic fish await beneath the surface.</li>
+                <li>Pack your bags ,leave your worries behind and embark on a journey to Zanzibar,where adventure awaits at every turn and memories are made to last lifetime.</li>
+            </ul>
+        </div>
+        <div class="post-block">
+            <h3>Thailand</h3>
+            <img src="images/thailand bangkok.jpg" alt="Thailand Bangkok">
+            <ul>
+                <li>Begin your journey in the vibrant capital city of Bangkok,where the scent of incense mingles with the aroma of street food ,and skyscrappers share the skyline with ornate ornate templates</li>
+                <li>As the sun sets another day in Thailand,take a moment to reflect on the beauty and diversity of its enchanting land.</li>
+                <li>Thailand is an opportunity for adventure ,discovery,and unforgettable memories.Embrace the spirit of adventure and let Thailand's endless wonders captivate your heart and soul.</li>
+            </ul>
+        </div>
+        <div class="post-block">
+            <h3>Vernnaza -Italy</h3>
+            <img src="images/italy.jpg" alt="Italy">
+            <ul>
+                <li>Explore one of the most unique and exquisite towns in Italy known for its stunning coastline.</li>
+                <li>Offering charming streets to explore,delicious local cuisine and breathtaking views of local cuisine.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact Us-->
     
+        <h2>For more information contact the agents below</h2>
+        <span class="contact-info">
+            <strong>Siyamtanda Tonjeni</strong>
+            <p><i class="fa-solid fa-phone"></i>: 0744332374</p>
+            <p><i class="fa-solid fa-envelope"></i>: siyamtandatonjeni@nstravels</p>
+        </span>
+        <span class="contact-info">
+            <strong>Nontando Zulu</strong>
+            <p><i class="fa-solid fa-phone"></i>:0632933701</p>
+            <p><i class="fa-solid fa-envelope"></i>:nontandozulu@nstravels</p>
+        </span>
 
-    <h1>N & S Travels</h1>
-
-</head>
-<body><nav><a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <p> Explore the world with us as we offer affordable travelling packages across the continent.
-        Get 30% off on your first travel package when you travel with us.
-    </p>
-
-    <h1>Zanzibar</h1>
-    <img src="zanzibar.jpg" alt="">
-
-
-    <ul>
-        <li>Dive into crystal clear waters teeming with vibrant marine life,where colourful coral reefs and exotic fish await beneath the surface.</li>
-        <li>Pack your bags ,leave your worries behind and embark on a journey to Zanzibar,where adventure awaits at every turn and memories are made to last lifetime.</li>
-    
-    </ul>
-        <h1>Thailand</h1>
-        <img src="thailand bangkok.jpg" alt="">
-        <ul>
-            <li>Begin your journey in the vibrant capital city of Bangkok,where the scent of incense mingles with the aroma of street food ,and skyscrappers share the skyline with ornate ornate templates</li>
-            <li>As the sun sets another day in Thailand,take a moment to reflect on the beauty and diversity of its enchanting land.</li>
-            <li>Thailand is an opportunity for adventure ,discovery,and unforgettable memories.Embrace the spirit of adventure and let Thailand's endless wonders captivate your heart and soul.</li>
-
-        </ul>
-        <h1>Vernnaza -Italy</h1>
-        <img src="italy.jpg" alt="">
-        <ul>
-            <li>Explore one of the most unique and exquisite towns in Italy known for its stunning coastline.</li>
-            <li>Offering charming streets to explore,delicious local cuisine and breathtaking views of local cuisine.</li>
-        </ul>
-        <h1>For more information contact the agents below</h1>
-        <h4>Siyamtanda Tonjeni</h4>
-    
-        <p>Phone: 0744332374</p>
-        <p>email: siyamtandatonjeni@nstravels</p>
-
-        <h4>Nontando Zulu</h4>
-            <p>Phone:0632933701</p>
-            <p>email:nontandozulu@nstravels</p>
-
-            <footer><p><br><strong>2024 N&S TravelsAll rights reserved</strong> </p></footer>
-        
-
-
- 
+<!-- Footer -->
+    <footer><p><br><strong>2024 N&S TravelsAll rights reserved</strong> </p></footer>
 
 </body>
 </html>
